@@ -1,0 +1,86 @@
+{
+  "accuracy": 0.9654605263157895,
+  "macro_f1": 0.9650851115814444,
+  "classification_report": {
+    "Dyskeratotic": {
+      "precision": 0.9682539682539683,
+      "recall": 1.0,
+      "f1-score": 0.9838709677419355,
+      "support": 122.0
+    },
+    "Koilocytotic": {
+      "precision": 0.981651376146789,
+      "recall": 0.8629032258064516,
+      "f1-score": 0.9184549356223176,
+      "support": 124.0
+    },
+    "Metaplastic": {
+      "precision": 0.90625,
+      "recall": 0.9747899159663865,
+      "f1-score": 0.9392712550607287,
+      "support": 119.0
+    },
+    "Parabasal": {
+      "precision": 0.9915966386554622,
+      "recall": 1.0,
+      "f1-score": 0.9957805907172996,
+      "support": 118.0
+    },
+    "Superficial-Intermediate": {
+      "precision": 0.9841269841269841,
+      "recall": 0.992,
+      "f1-score": 0.9880478087649402,
+      "support": 125.0
+    },
+    "accuracy": 0.9654605263157895,
+    "macro avg": {
+      "precision": 0.9663757934366407,
+      "recall": 0.9659386283545676,
+      "f1-score": 0.9650851115814444,
+      "support": 608.0
+    },
+    "weighted avg": {
+      "precision": 0.9666443768855322,
+      "recall": 0.9654605263157895,
+      "f1-score": 0.9649704526877781,
+      "support": 608.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      122,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      107,
+      11,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      116,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      118,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      124
+    ]
+  ]
+}

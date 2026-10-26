@@ -4,3 +4,5 @@ scikit-learn
 pandas
 Pillow
 tqdm
+matplotlib
+streamlit
